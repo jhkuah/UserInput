@@ -44,7 +44,7 @@ function AddUser(props) {
         <ErrorModal
           title={error.title}
           message={error.message}
-          dismiss={cancelHandler}
+          onConfirm={cancelHandler}
         />
       )}
       <Card className={classes.input}>
